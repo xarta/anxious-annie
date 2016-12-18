@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoSerialConsole", "MonoSerialConsole\MonoSerialConsole.csproj", "{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}.Debug|x86.ActiveCfg = Debug|x86
+		{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}.Debug|x86.Build.0 = Debug|x86
+		{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}.Release|x86.ActiveCfg = Release|x86
+		{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

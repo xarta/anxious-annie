@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0EF6F0C3-686B-49E9-A6B1-14B93C322D26}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MonoSerialConsole</RootNamespace>
+    <AssemblyName>MonoSerialConsole</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="NodaTime">
+      <HintPath>NodaTime-1.3.2\NodaTime.dll</HintPath>
+    </Reference>
+    <Reference Include="NodaTime.Serialization.JsonNet">
+      <HintPath>NodaTime-1.3.2\NodaTime.Serialization.JsonNet.dll</HintPath>
+    </Reference>
+    <Reference Include="NodaTime.Testing">
+      <HintPath>NodaTime-1.3.2\NodaTime.Testing.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <Package>monodevelop</Package>
+    </Reference>
+    <Reference Include="System.Xml.Serialization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="JustNotes.cs" />
+    <Compile Include="SerialObjects\BaseSerialPort.cs" />
+    <Compile Include="SerialObjects\GsmSerialPort.cs" />
+    <Compile Include="SerialObjects\LlapSerialPort.cs" />
+    <Compile Include="SerialObjects\SmsSerialPort.cs" />
+    <Compile Include="SerialObjects\ISerialPort.cs" />
+    <Compile Include="SerialObjects\LittleBuffer.cs" />
+    <Compile Include="SerialObjects\SerialEventArgs.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SerialObjects\" />
+    <Folder Include="LocalActuators\" />
+    <Folder Include="LocalSensors\" />
+    <Folder Include="MQTTclient\" />
+    <Folder Include="SerialObjects\SerialUnitTests\" />
+  </ItemGroup>
+</Project>
