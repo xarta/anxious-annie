@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="MonoSerialConsole/MonoSerialConsole.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoSerialConsole/Program.cs">
+    <Files>
+      <File FileName="MonoSerialConsole/Program.cs" Line="61" Column="5" />
+      <File FileName="MonoSerialConsole/Utility.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/JustNotes.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/BaseSerialPort.cs" Line="87" Column="32" />
+      <File FileName="MonoSerialConsole/SerialObjects/LlapSerialPort.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/GsmSerialPort.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/SmsSerialPort.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/ISerialPort.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/SerialEventArgs.cs" Line="1" Column="1" />
+      <File FileName="MonoSerialConsole/SerialObjects/LittleBuffer.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

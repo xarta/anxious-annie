@@ -1,0 +1,8 @@
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/bin/Debug/MonoSerialConsole.exe.mdb
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/bin/Debug/MonoSerialConsole.exe
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/obj/x86/Debug/MonoSerialConsole.exe
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/obj/x86/Debug/MonoSerialConsole.exe.mdb
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/bin/Debug/NodaTime.dll
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/bin/Debug/NodaTime.Serialization.JsonNet.dll
+/home/pi/Desktop/MonoSerialConsole/MonoSerialConsole/bin/Debug/NodaTime.Testing.dll

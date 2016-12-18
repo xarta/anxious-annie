@@ -1,0 +1,146 @@
+INPUT = 
+^RSSI:19
+
+^BOOT:34438401,0,0,0,87
+
+^RSSI:19
+
+^RSSI:19
+
+^RSSI:19
+
+^RSSI:19
+
+for (int i = 0; 0 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=2, endMatchBytes=9
+OUTPUT = ^RSSI:1
+for (int i = 0; 12 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 66
+IN WHILE   ...buffer[matchingBytes + i] = 79
+IN WHILE   ...buffer[matchingBytes + i] = 79
+IN WHILE   ...buffer[matchingBytes + i] = 84
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 51
+IN WHILE   ...buffer[matchingBytes + i] = 52
+IN WHILE   ...buffer[matchingBytes + i] = 52
+IN WHILE   ...buffer[matchingBytes + i] = 51
+IN WHILE   ...buffer[matchingBytes + i] = 56
+IN WHILE   ...buffer[matchingBytes + i] = 52
+IN WHILE   ...buffer[matchingBytes + i] = 48
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 44
+IN WHILE   ...buffer[matchingBytes + i] = 48
+IN WHILE   ...buffer[matchingBytes + i] = 44
+IN WHILE   ...buffer[matchingBytes + i] = 48
+IN WHILE   ...buffer[matchingBytes + i] = 44
+IN WHILE   ...buffer[matchingBytes + i] = 48
+IN WHILE   ...buffer[matchingBytes + i] = 44
+IN WHILE   ...buffer[matchingBytes + i] = 56
+IN WHILE   ...buffer[matchingBytes + i] = 55
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=14, endMatchBytes=36
+OUTPUT = ^BOOT:34438401,0,0,0,8
+for (int i = 0; 39 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=41, endMatchBytes=48
+OUTPUT = ^RSSI:1
+for (int i = 0; 51 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=53, endMatchBytes=60
+OUTPUT = ^RSSI:1
+for (int i = 0; 63 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=65, endMatchBytes=72
+OUTPUT = ^RSSI:1
+for (int i = 0; 75 < 87; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=77, endMatchBytes=84
+OUTPUT = ^RSSI:1
+INPUT = 
+^RSSI:19
+
+for (int i = 0; 0 < 12; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=2, endMatchBytes=9
+OUTPUT = ^RSSI:1
+INPUT = 
+^RSSI:19
+
+for (int i = 0; 0 < 12; i++)
+IN WHILE   ...buffer[matchingBytes + i] = 94
+IN WHILE   ...buffer[matchingBytes + i] = 82
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 83
+IN WHILE   ...buffer[matchingBytes + i] = 73
+IN WHILE   ...buffer[matchingBytes + i] = 58
+IN WHILE   ...buffer[matchingBytes + i] = 49
+IN WHILE   ...buffer[matchingBytes + i] = 57
+IN WHILE   ...matchingBytes= 1 ... 
+IN WHILE   ...matchingBytes= 2 ... 
+IN matchingBytes == patternLength
+startMatchBytes=2, endMatchBytes=9
+OUTPUT = ^RSSI:1
