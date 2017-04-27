@@ -1,3 +1,6 @@
+# ToDo:
+- why is linguist reporting HTML?  Added .gitattributes and said to ignore Noda time.  next time I look at this on the Desktop, run linguist.
+
 # note: April 2017
 I had this set as a private repository as it's just a mess right now. But it's the only C# I really have to show other than tests and practice exercises.
 
