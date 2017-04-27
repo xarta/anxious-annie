@@ -4,7 +4,7 @@ By December 2016, I realised I really needed to document more of what I was doin
 
 I believe that where I'd got up to was implementing INotifyPropertyChanged and the way I had some core structure going on.
 
-Not all the classes are staying.
+Not all the classes are staying (in folder serial objects) ... and I decided not to use EnhancedSerialPort.cs written by someone else.
 
 I wanted to use reflection for loading appropriate DLLS for x86 vs Arm (Raspberry Pi).
 
@@ -12,4 +12,4 @@ I want to implement Google's Authenticator API for SMS.
 
 I think I haven't included any x509 stuff here ... I was working on that initially in a separate project.
 
-This isn't something that works yet ... needs a LOT of work!
+This isn't something that works yet ... needs a LOT of work! Even the formatting is all over the place on GitHub.
