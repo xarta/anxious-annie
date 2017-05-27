@@ -1,2 +1,9 @@
 
-NodaTime-1.3.2/* linguist-vendored=false
+MonoSerialConsole/NodaTime-1.3.2/* linguist-vendored
+MonoSerialConsole/Properties/* linguist-vendored
+MonoSerialConsole/bin/Debug/* linguist-vendored
+MonoSerialConsole/MonoSerialConsole.csproj linguist-vendored
+MonoSerialConsole/ReadMe.md linguist-vendored
+MonoSerialConsole/obj/x86/Debug/* linguist-vendored
+MonoSerialConsole.sln linguist-vendored
+MonoSerialConsole.userprefs linguist-vendored
